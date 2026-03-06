@@ -170,6 +170,6 @@ This project is licensed under the MIT License — see [LICENSE](./LICENSE) for 
 
 ## About
 
-Built by [YOUR NAME] as the AI backbone for **Horizons Electronics Repair** — a real business solving real problems with locally-hosted AI.
+Built by Avery Keller as the AI backbone for **Horizons Electronics Repair** — a real business solving real problems with locally-hosted AI.
 
 Questions or want to collaborate? Open an issue or reach out.
