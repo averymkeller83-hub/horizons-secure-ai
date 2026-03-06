@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Model files (too large for git)
+models/
+*.gguf
+*.bin
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage & testing
+.coverage
+htmlcov/
+.pytest_cache/
