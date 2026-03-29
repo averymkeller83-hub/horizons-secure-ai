@@ -4,25 +4,25 @@
 
 ---
 
-## Phase 1: Foundation ⬅️ CURRENT
+## Phase 1: Foundation ✅ COMPLETE
 **Goal**: Local LLM running, API layer scaffolded, database designed.
 
-- [ ] Set up development environment (Ollama, Docker, PostgreSQL)
+- [x] Set up development environment (Ollama, Docker, PostgreSQL)
 - [ ] Select and benchmark LLM model (Llama 3.1 8B vs Mistral 7B)
-- [ ] Design database schema (customers, leads, repairs, conversations)
-- [ ] Build API gateway with basic health checks and LLM proxy endpoint
-- [ ] Create `.env.example` and Docker Compose for local dev
-- [ ] Write first architecture decision record (ADR-001: Why Ollama)
+- [x] Design database schema (customers, leads, repairs, conversations)
+- [x] Build API gateway with basic health checks and LLM proxy endpoint
+- [x] Create `.env.example` and Docker Compose for local dev
+- [x] Write first architecture decision record (ADR-001: Why Ollama)
 
 **Milestone**: Can send a prompt to the local LLM through the API and get a response.
 
 ---
 
-## Phase 2: Customer Intake Bot
+## Phase 2: Customer Intake Bot ⬅️ CURRENT
 **Goal**: Working chatbot that can collect repair information from customers.
 
-- [ ] Design conversation flow for repair intake
-- [ ] Build intake API endpoints (start conversation, send message, get history)
+- [x] Design conversation flow for repair intake
+- [x] Build intake API endpoints (start conversation, send message, get history)
 - [ ] Implement conversation memory (context window management)
 - [ ] Create device & issue identification prompts
 - [ ] Build ticket creation from completed intake conversations
